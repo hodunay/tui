@@ -1,7 +1,7 @@
 {
-  "name": "tui",
+  "name": "@hitools/tui",
   "version": "0.1.0",
-  "description": "Terminal UI with basic components set like Question, Select, Multi-select, Message. ",
+  "description": "Lightweight Node.js toolkit for building interactive CLI prompts, menus, and terminal workflows.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/hodunay/tui/issues"
   },
-  "homepage": "https://github.com/hodunay/tui#readme"
+  "homepage": "https://github.com/hodunay/tui#readme",
+  "directories": {
+    "example": "examples"
+  }
 }
