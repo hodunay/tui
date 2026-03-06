@@ -1,8 +1,8 @@
 import Prompt from '../prompt.js'
 
-export default class Wait extends Prompt {
+export default class Loader extends Prompt {
 
-    type = 'wait'
+    type = 'loader'
 
     static schema = {
         label: { required: true },

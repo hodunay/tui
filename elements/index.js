@@ -3,10 +3,9 @@ import Select from './select.js'
 import MultiSelect from './multiselect.js'
 import Confirm from './confirm.js'
 import ErrorMessage from './error.js'
-import Wait from './wait.js'
+import Loader from './loader.js'
 import Question from './question.js'
-import Function from './function.js'
-// import Check from './check.js'
+import Task from './task.js'
 
 export default {
     message: Message,
@@ -15,6 +14,6 @@ export default {
     select: Select,
     multiselect: MultiSelect,
     error: ErrorMessage,
-    wait: Wait,
-    func: Function,
+    loader: Loader,
+    task: Task,
 }

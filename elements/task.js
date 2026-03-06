@@ -1,11 +1,11 @@
 import Prompt from '../prompt.js'
 
-export default class Function extends Prompt {
+export default class Task extends Prompt {
 
-    type = 'func'
+    type = 'task'
 
     static schema = {
-        fn: { required: true },
+        run: { required: true },
         params: { required: false },
         name: { required: false },
     }
@@ -14,7 +14,7 @@ export default class Function extends Prompt {
 
         Prompt.out.write( this.useTemplate(this, this.template) )
         
-        let {value, finished} = await this.fn(this, this.params)
+        let {value, finished} = await this.run(this, this.params)
         if(value) this.value = value
         if(finished) this.finished = finished
 

@@ -322,7 +322,7 @@ Theme.template.question = `{{if finished}}\n${Theme.groupMarker.current} {{label
 // {{if finished}}│ {{value | asciiFill(79)}}│{{else}}│ {{if value}}{{value | asciiFill(79)}}│{{else}}\x1b[38;5;249m{{placeholder | asciiFill(79)}}\x1b[0m│{{endif}}{{endif}}
 // └${''.padEnd(80, '─')}┘`
 Theme.template.error = `\n${Theme.groupMarker.current} ${Styles.color.error}[ ERROR ]${Reset} {{label}}\n${Theme.groupBorder}`
-Theme.template.wait = `${Styles.marker.error} {{label}}\n${Theme.groupBorder}`
-Theme.template.func = `\n${Theme.groupMarker.current} Running function... {{label}}\n${Theme.groupBorder}`
+Theme.template.loader = `${Styles.marker.error} {{label}}\n${Theme.groupBorder}`
+Theme.template.task = `\n${Theme.groupMarker.current} Running task... {{label}}\n${Theme.groupBorder}`
 
 export default Theme
