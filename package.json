@@ -1,0 +1,25 @@
+{
+  "name": "tui",
+  "version": "0.1.0",
+  "description": "Terminal UI with basic components set like Question, Select, Multi-select, Message. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hodunay/tui.git"
+  },
+  "keywords": [
+    "tui",
+    "cli",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Igor Hodunay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hodunay/tui/issues"
+  },
+  "homepage": "https://github.com/hodunay/tui#readme"
+}
