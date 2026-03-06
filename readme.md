@@ -1,18 +1,12 @@
 
 # Node.js Terminal UI
 
-<p align="center">
 Minimal and extensible toolkit for building interactive CLI flows in Node.js.
-</p>
-
-<p align="center">
 
 ![npm version](https://img.shields.io/npm/v/@minojs/tui)
 ![npm downloads](https://img.shields.io/npm/dm/@minojs/tui)
 ![node version](https://img.shields.io/node/v/@minojs/tui)
 ![license](https://img.shields.io/npm/l/@minojs/tui)
-
-</p>
 
 ---
 

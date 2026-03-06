@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Terminal UI with basic components set like Question, Select, Multi-select, Message. ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
